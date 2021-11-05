@@ -366,12 +366,20 @@ footer p a{
 }
 
 .form-row, .col-7{
-  margin-right: 1900px !important;
+  /* margin-right: 1900px !important; */
 }
 
 .form-row{
   margin: 100px !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  margin-right: -17px !important;
+  margin-left: -5px;
+  justify-content: center;
+  /* align-content: stretch; */
 }
+
 
 
 body {
